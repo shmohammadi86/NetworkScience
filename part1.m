@@ -39,7 +39,7 @@ ds_path = 'input/transcriptome/Pollen';
 %% Plot 2D projection of points
     rng('default')
     
-    ydata = tsne_d(1-corr(adjusted_transcriptional_signatures), Labels, 2);   
+    ydata = tsne_d(1-corr(raw_transcriptional_signatures), Labels, 2);   
     
 
     fig = figure;
